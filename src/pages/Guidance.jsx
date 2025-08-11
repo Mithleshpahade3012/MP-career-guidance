@@ -25,7 +25,7 @@ export default function Guidance(){
     setInput('')
     setLoading(true)
     try{
-      const res = await axios.post('https://swift-guests-wash.loca.lt/chat', { question: userMsg.text })
+      const res = await axios.post('https://d64fa092a05f.ngrok-free.app/chat', { question: userMsg.text })
       const botText = res.data.answer || res.data.reply || JSON.stringify(res.data)
       // simulate typing
       await new Promise(r=>setTimeout(r, 500))

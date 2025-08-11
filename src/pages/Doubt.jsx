@@ -24,7 +24,7 @@ export default function Doubt(){
     setInput('')
     setLoading(true)
     try{
-      const res = await axios.post('https://swift-guests-wash.loca.lt/chat', { question: newD.q })
+      const res = await axios.post('https://d64fa092a05f.ngrok-free.app/chat', { question: newD.q })
       const answer = res.data.answer || res.data.reply || JSON.stringify(res.data)
       setSelected({...newD, a: answer})
     }catch(err){
