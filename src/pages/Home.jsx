@@ -99,7 +99,7 @@
               <div className="flex justify-center gap-3">
                 <div className="mt-6 justify-center">
                   <a
-                    href="/guidance" // change this to your target page/route
+                    href="/Guidance" // change this to your target page/route
                     className="px-9 py-1 rounded-full bg-yellow-600 hover:bg-yellow-800 text-white shadow-lg shadow-blue-900/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-400 focus-visible:ring-offset-black transition"
                   >
                     Explore Career Guidance
@@ -107,7 +107,7 @@
                 </div>
                 <div className="mt-6 justify-center">
                   <a
-                    href="/doubt" // change this to your target page/route
+                    href="/Doubt" // change this to your target page/route
                     className="px-9 py-1 rounded-full bg-yellow-600 hover:bg-yellow-800 text-white shadow-lg shadow-blue-900/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-400 focus-visible:ring-offset-black transition"
                   >
                     Explore Doubt
