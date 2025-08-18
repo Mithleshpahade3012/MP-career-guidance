@@ -3,6 +3,7 @@
   import { motion, useReducedMotion } from "framer-motion";
   import hero from "/hero.jpg";
   import PropTypes from "prop-types";
+  import { Link } from "react-router-dom";
 
   export default function Home() {
     const [showModal, setShowModal] = useState(false);
@@ -98,20 +99,18 @@
 
               <div className="flex justify-center gap-3">
                 <div className="mt-6 justify-center">
-                  <a
-                    href="/Guidance" // change this to your target page/route
+                  <Link to="/Guidance" // change this to your target page/route
                     className="px-9 py-1 rounded-full bg-yellow-600 hover:bg-yellow-800 text-white shadow-lg shadow-blue-900/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-400 focus-visible:ring-offset-black transition"
                   >
                     Explore Career Guidance
-                  </a>
+                  </Link>
                 </div>
                 <div className="mt-6 justify-center">
-                  <a
-                    href="/Doubt" // change this to your target page/route
+                  <Link to="/Doubt" // change this to your target page/route
                     className="px-9 py-1 rounded-full bg-yellow-600 hover:bg-yellow-800 text-white shadow-lg shadow-blue-900/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-400 focus-visible:ring-offset-black transition"
                   >
                     Explore Doubt
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
