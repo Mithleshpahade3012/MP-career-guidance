@@ -8,7 +8,7 @@ export default function Guidance() {
     const userMsg = { sender: "user", text, timestamp: new Date() };
     setMessages((prev) => [...prev, userMsg]);
 
-    const res = await fetch("https://a5d54d68c2ae.ngrok-free.app/chat", {
+    const res = await fetch("https://be5fced64cde.ngrok-free.app/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ question: text }),
